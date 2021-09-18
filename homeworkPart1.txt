@@ -3,7 +3,7 @@ The document outline of the structure.html pages is that the header strategy has
 
 <article> An article can group other individual elements that can be standalone, and when the items are removed from the other contents the items can still make sense. So with articles you can basically say that all of the other contents belong together and could be stand alone.  In this case, the article element grouped up all of the other elements within the second header element and the sections elements showing that all the contents within the article elements belong together. 
 
-<nav>The nav element is the section that gives people access to other pages by having links of the other pages together within the actual page the user is on.  In this page there are multiple pages connected to this page, the nav element will  help people access the other pages easily. In this case the nav element has a list of links of the other content that is connected to this page. 
+<nav>The nav element is the section that gives people access to other pages by having links of the other pages together within the actual page the user is on.  In this page there are multiple pages connected to this page, the nav element will  help people access the other pages easily. In this case the nav element has a list of links of the other content that is connected to this page. THe aria roles in the nav can help 
 
 <section> Section elements represent a standalone section of a document, it should contain a heading most of the times. In this page each sectioning tag has a heading h3 element as its heading and has paragraphs under the heading, grouping all the heading with the paragraphs. In the document outline there are 4 individual section elements within the parents article. 
 
