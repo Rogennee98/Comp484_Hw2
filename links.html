@@ -33,11 +33,12 @@
 <section>
 <h3>Link types</h3>
 <p>There are three basic types of link: <b>absolute</b>, <b>site-root relative</b>, and <b>document relative</b>. Each of these types refers to the value of the <b>href</b> attribute, which directs how the browser should resolve a link once the link has been clicked. </p>
-</section>
+
 <aside>
 <h4>Absolute links </h4>
 <p>These links contain the entire URL necessary to resolve a link, including the protocol. This is usually done for external links, which are links to pages outside of the current site. Here&rsquo;s an example of an absolute link:</p>
 <pre>&lt;a href=&rdquo;http://www.google.com&rdquo; title=&rdquo;You can find it at google.com!&rdquo;&gt;google.com&lt;/a&gt;</pre>
+ </aside>
 <aside>
 <h4>Document relative links </h4>
 <p>These links are commonly used to navigate internally within a site. For example, if you were on the home page of your site, and wanted to navigate to the contact page, you simply provide the path from the home page to the contact page for the <b>href</b> value. Doing this requires you to understand the directory structure of your site, and when you need to navigate into, or out of, folders. Take the following example:</p>
@@ -55,12 +56,15 @@
 <p> In this example, the link is resolved by going directly into the site&rsquo;s root folder and finding the contact page. If the contact page were located deeper within the site, the link would look like this:</p>
 <pre>&lt;a href=&rdquo;/resources/contact.htm&rdquo; title=&rdquo;our contact page&rdquo;&gt;Contact us&lt;/a&gt;</pre>
   </aside>
+</section>
+<section>
 <h3>Fragment identifiers </h3>
 <p>Occasionally you&rsquo;ll want a link to refer to a specific location within a page. This can be done using a special kind of link called a fragment identifier. These links point to elements with a specific <b>ID</b> attribute. Let&rsquo;s say, for example, you have a long list of <b>FAQs</b> on a page organized by categories and you had a heading at the top of each category. If you assigned each heading an ID attribute, you could use those IDs to create a links that jump to specific categories. For example, you could format the Camping FAQs heading like this:</p>
 <pre>&lt;h2 id=&rdquo;camp&rdquo;&gt;Camping&lt;/h2&gt;</pre>
 <p> Elsewhere on the page you could link to this section by creating the following link:</p>
 <pre>&lt;a href=&rdquo;#camp&rdquo;&gt;Learn more about camping&lt;/a&gt;</pre>
 <p> Note the hash symbol (#) prior to the ID value. This tells the browser to look for an element with the ID value that follows.You can link to fragment identifiers on external pages as well. Simply append the fragment identifier to the URL and the link will jump to not only to that page, but that specific section as well.</p>
+  </section>
     </article>
   </main>
   <footer>
